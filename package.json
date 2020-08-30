@@ -1,0 +1,23 @@
+{
+  "name": "signIn-SignUp-Api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leandrocesar002/signIn-SignUp-Api.git",
+  "author": "Leandro Santos <39060294+leandrocesar002@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0",
+    "sucrase": "^3.15.0"
+  }
+}
